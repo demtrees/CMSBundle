@@ -1,0 +1,4 @@
+demtrees_cms_demtrees_post:
+    resource: "@demtreesCMSBundle/Resources/config/routing/post.yml"
+    prefix:   /demtrees_post
+

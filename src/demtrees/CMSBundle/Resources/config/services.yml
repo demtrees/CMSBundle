@@ -1,0 +1,7 @@
+parameters:
+#    demtrees_cms.example.class: demtrees\CMSBundle\Example
+
+services:
+#    demtrees_cms.example:
+#        class: %demtrees_cms.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

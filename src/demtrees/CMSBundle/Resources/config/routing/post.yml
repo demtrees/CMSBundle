@@ -1,0 +1,30 @@
+demtrees_post:
+    pattern:  /
+    defaults: { _controller: "demtreesCMSBundle:Post:index" }
+
+demtrees_post_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "demtreesCMSBundle:Post:show" }
+
+demtrees_post_new:
+    pattern:  /new
+    defaults: { _controller: "demtreesCMSBundle:Post:new" }
+
+demtrees_post_create:
+    pattern:  /create
+    defaults: { _controller: "demtreesCMSBundle:Post:create" }
+    requirements: { _method: post }
+
+demtrees_post_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "demtreesCMSBundle:Post:edit" }
+
+demtrees_post_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "demtreesCMSBundle:Post:update" }
+    requirements: { _method: post|put }
+
+demtrees_post_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "demtreesCMSBundle:Post:delete" }
+    requirements: { _method: post|delete }

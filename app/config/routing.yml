@@ -1,0 +1,4 @@
+demtrees_cms:
+    resource: "@demtreesCMSBundle/Resources/config/routing.yml"
+    prefix:   /
+
